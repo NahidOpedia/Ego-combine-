@@ -1,0 +1,54 @@
+/* .costom-accordion{
+
+} */
+
+.accordion-item-costom-1 {
+  background: linear-gradient(
+    94.14deg,
+    rgba(35, 29, 36, 0.164) 18.82%,
+    rgba(2, 157, 255, 0.32) 48.26%,
+    rgba(76, 47, 255, 0) 95.19%
+  );
+  backdrop-filter: blur(5px);
+}
+.risk-btn {
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: 3px;
+}
+
+img.risk-img {
+  height: 71px;
+  width: 80px;
+  object-fit: contain;
+}
+.ac-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 84px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.ac-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.ac-container {
+  margin-top: 100px;
+  background-image: url("../assets/bg-imgae/speciality Colors.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  width: 100%;
+}

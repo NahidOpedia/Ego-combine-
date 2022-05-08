@@ -1,0 +1,270 @@
+/* .logo img {
+  width: 106px;
+  height: 49px;
+}
+.nav-item {
+  margin-left: 198px;
+}
+
+.nav-item a:active {
+  color: #fff;
+}
+.nav-item a:focus {
+  color: #fff;
+}
+
+.model-costom {
+  background: none;
+  color: #fff;
+  border: none;
+}
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-item ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.nav-item ul li {
+  list-style: none;
+  margin-left: 15px;
+  text-align: center;
+}
+.nav-item ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.buy-btn {
+  border: none;
+  padding: 10px 34px;
+  text-decoration: none;
+  background: linear-gradient(109.06deg, #5ca0e4 37.16%, #a74eed 85.69%);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.buy-btn:hover {
+  padding: 10px 34px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+.icon-style {
+  color: #fff;
+  font-size: 24px;
+  z-index: 5;
+} */
+
+/* @media (min-width: 250px) and (max-width: 600px) {
+  .logo img {
+    width: 60px;
+    height: 19px;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 0;
+  }
+
+  .nav-item a:active {
+    color: #fff;
+  }
+
+  .nav-item a:focus {
+    color: #fff;
+  }
+
+  .nav-item ul {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .nav-item ul li {
+    list-style: none;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .nav-item ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .buy-btn {
+    border: none;
+    padding: 6px 20px;
+    background: linear-gradient(109.06deg, #5ca0e4 37.16%, #a74eed 85.69%);
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
+    margin: 0 40%;
+  }
+
+  .buy-btn:hover {
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .button-toggle {
+    color: rgb(0, 0, 0);
+  }
+
+  .icon-style {
+    color: #fff;
+    font-size: 24px;
+    z-index: 5;
+  }
+} */
+
+/* @media (min-width: 650px) and (max-width: 1290px) {
+  .collapse:not(.show) {
+    display: block;
+  }
+
+  .logo img {
+    width: 90px;
+    height: 39px;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .nav-item a:active {
+    color: #fff;
+  }
+
+  .nav-item a:focus {
+    color: #fff;
+  }
+
+  .nav-item ul {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .nav-item ul li {
+    list-style: none;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .nav-item ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .buy-btn {
+    border: none;
+    padding: 6px 20px;
+    background: linear-gradient(109.06deg, #0080ff 37.16%, #a74eed 85.69%);
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
+    margin: 0 40%;
+  }
+
+  .buy-btn:hover {
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .button-toggle {
+    color: rgb(0, 0, 0);
+  }
+
+  .icon-style {
+    color: #fff;
+    font-size: 24px;
+    z-index: 5;
+  }
+} */
+
+.logo {
+  width: 106px;
+  height: 49px;
+}
+
+.nav-item a:active {
+  color: #fff;
+}
+
+.nav-item a:focus {
+  color: #fff;
+}
+.nav-item a{
+  text-decoration: none;
+  color:#fff;
+  margin-right: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.buy-btn {
+  border: none;
+  padding: 10px 34px;
+  text-decoration: none;
+  background: linear-gradient(109.06deg, #5ca0e4 37.16%, #a74eed 85.69%);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.buy-btn:hover {
+  padding: 10px 34px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}

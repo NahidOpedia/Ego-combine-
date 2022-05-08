@@ -1,0 +1,248 @@
+/* .clock-wrap {
+  position: relative;
+  background-color: green;
+}
+.clock {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  top: 175px;
+}
+
+.clock::after {
+  background: #aaa;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+}
+
+.hour_hand {
+  position: absolute;
+  width: 6px;
+  height: 60px;
+  background: #222;
+  top: 30%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.min_hand {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background: #444;
+  top: 22.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 118px;
+  background: red;
+  top: 10.5%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.clock span {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+.twelve {
+  top: 10px;
+  left: 46%;
+}
+
+.one {
+  top: 10%;
+  right: 26%;
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+}
+
+.two {
+  top: 25%;
+  right: 10%;
+}
+
+.three {
+  right: 10px;
+  top: 46%;
+}
+
+.four {
+  right: 30px;
+  top: 67%;
+}
+
+.five {
+  right: 78px;
+  top: 80%;
+}
+
+.six {
+  bottom: 10px;
+  left: 50%;
+}
+
+.seven {
+  left: 80px;
+  top: 82%;
+}
+
+.eight {
+  left: 30px;
+  top: 67%;
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+}
+
+.ten {
+  top: 25%;
+  left: 10%;
+} */
+/* @media (min-width: 2701px) {
+    .clock {
+        margin-top: -30vh;
+    }
+}
+@media  (min-width: 2101px)  and (max-width: 2700px ){
+    .clock {
+        margin-top: -5vh;
+    }
+}
+@media (min-width: 1925px) and (max-width: 2136px) {
+    .clock {
+        margin-top: -350px;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1924px) {
+    .clock {
+        margin-top: -18vh;
+    }
+}
+@media  (min-width: 1023px)  and (max-width: 1440px ){
+    .clock {
+        margin-top: -170px;
+    }
+}
+@media  (min-width: 768px)  and (max-width: 1024px ){
+    .clock {
+        margin-top: -120px;
+    }
+} */
+
+/* .count-box-hour-text-count {
+    padding: 15px 23px;
+    background: #0A0049;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.count-box-hour-text-count-2 {
+    padding: 15px 17px;
+    background: #0A0049;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.time-box-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+}
+.goals-container{
+    margin-top: 15px;
+}
+.goals-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #EFF0FC;
+}
+
+.Purchase-btn{
+    margin-top: 20px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    Padding: 12px 70px 12px 70px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(106.22deg, #0085FF -41.18%, #C15CFF 81.41%);
+    border-radius: 12px;
+}
+
+
+
+
+.progress {
+    background-color: #d8d8d82f;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px auto;
+    height: 12px;
+    width: 285px;
+}
+
+.progress-done {
+    background: linear-gradient(270deg, #FFFFFF 0%, #77AFFF 100%);;
+    box-shadow: 0 3px 3px -5px #FFFFFF, 0 2px 5px #77AFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: 1s ease 0.3s;
+} */

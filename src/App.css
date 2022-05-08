@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #0B0745 10%, #050524 100%);
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  /* scrollbar-color: linear-gradient(106.22deg, #C15CFF -41.18%, #0085FF 81.41%); */
+}
+/* #0085FF  #C15CFF */
+body::-webkit-scrollbar {
+  max-width: 1px;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(106.22deg, #0085FF -41.18%, #C15CFF 81.41%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+
+.home-container{
+
+  max-width: 100%;
+}
+
+.graph-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 108px;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+.canvasjs-chart-credit{
+  display: none;
+}
+
+@media (min-width: 250px) and (max-width: 600px) {
+
+    body {
+      background: linear-gradient(180deg, #0B0745 10%, #050524 100%);
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .graph-heading {
+      font-size: 22px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+  .graph-heading{
+    font-size: 38px;
+  }
+}

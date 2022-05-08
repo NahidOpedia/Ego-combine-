@@ -1,0 +1,353 @@
+.road-map-bg {
+  background-image: url("../../../../assets/bg-imgae/roadmap-bg.png");
+  background-repeat: no-repeat;
+  background-size: 20em;
+  background-position: left;
+  width: 100%;
+  margin-bottom: 300px;
+}
+.road-map {
+  max-width: 900px;
+  max-height: 100%;
+  margin: 100px auto;
+}
+.road-map h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.road-map > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  background: linear-gradient(106.22deg, #0085ff -41.18%, #c15cff 81.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 10px;
+  margin-bottom: 190px;
+}
+
+.card-1 {
+  margin-top: 200px;
+}
+
+.road-2-card {
+  margin-left: 64px;
+}
+.road-card-3-map {
+  margin-top: 210px;
+}
+
+.road-card-1 {
+  position: absolute;
+  z-index: 5;
+  margin-top: -80px;
+  margin-left: 225px;
+}
+
+.road-card-1 > h1 {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 125px;
+  color: #ffffff;
+  padding: 13px 21px;
+  background: linear-gradient(180deg, #7c69f0 0%, #1e147e 100%);
+  border-radius: 11px;
+}
+
+.road-card-1 > h1 > span {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.road-card-options {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 45, 214, 0.6) 0%,
+    rgba(42, 48, 100, 0) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  border-image: linear-gradient(
+    309.12deg,
+    #0fc3ed 3.11%,
+    rgba(15, 195, 237, 0) 45.67%
+  );
+  border-image-slice: 1;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.road-card-options > ul {
+  max-width: 428px;
+  padding: 32px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.road-card-options > ul > li {
+  margin-top: 14px;
+  font-weight: 300;
+}
+
+.road-card-2 {
+  position: absolute;
+  z-index: 5;
+  margin-top: -80px;
+  margin-left: 225px;
+}
+
+.road-card-2 > h1 {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 125px;
+  color: #ffffff;
+  padding: 13px 21px;
+  background: linear-gradient(180deg, #7c69f0 0%, #1e147e 100%);
+  border-radius: 11px;
+}
+
+.road-card-2 > h1 > span {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.road-card-options-2 {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 45, 214, 0.6) 0%,
+    rgba(42, 48, 100, 0) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  border-image: linear-gradient(
+    309.12deg,
+    #0fc3ed 3.11%,
+    rgba(15, 195, 237, 0) 45.67%
+  );
+  border-image-slice: 1;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.road-card-options-2 > ul {
+  width: 94%;
+  padding: 32px 32px 32px 88px;
+  margin-left: 15px;
+}
+
+.road-card-options-2 > ul > li {
+  margin-top: 14px;
+}
+
+.road-card-3 {
+  position: absolute;
+  z-index: 5;
+  margin-top: -80px;
+  margin-left: 225px;
+}
+
+.road-card-3 > h1 {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 125px;
+  color: #ffffff;
+  padding: 13px 21px;
+  background: linear-gradient(180deg, #7c69f0 0%, #1e147e 100%);
+  border-radius: 11px;
+}
+
+.road-card-3 > h1 > span {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.road-card-options-3 {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 45, 214, 0.6) 0%,
+    rgba(42, 48, 100, 0) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  border-image: linear-gradient(
+    309.12deg,
+    #0fc3ed 3.11%,
+    rgba(15, 195, 237, 0) 45.67%
+  );
+  border-image-slice: 1;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  height: 480px;
+
+  color: #ffffff;
+}
+
+.road-card-options-3 > ul {
+  max-width: 428px;
+  padding: 32px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.road-card-options-3 > ul > li {
+  margin-top: 14px;
+}
+.fa-costm {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.road-card-options-5 {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 45, 214, 0.6) 0%,
+    rgba(42, 48, 100, 0) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1.5px solid;
+  border-image: linear-gradient(
+    309.12deg,
+    #0fc3ed 3.11%,
+    rgba(15, 195, 237, 0) 45.67%
+  );
+  border-image-slice: 1;
+
+  color: #ffffff;
+}
+
+@media (min-width: 250px) and (max-width: 600px) {
+
+  .road-map-bg {
+    background-image: none;
+    width: 100%;
+  }
+
+  .road-map {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .road-map h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .road-map h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    text-align: center;
+    background: linear-gradient(106.22deg, #0085ff -41.18%, #c15cff 81.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .road-map-view {
+    background-image: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+.subToggle {
+  display: none !important;
+  transition: 0.3s;
+}
+
+.subToggle.open {
+  display: block !important;
+  transition: 0.3s;
+}
+
+/* .rotateIcon {
+    transform: rotate(-90deg);
+} */
+
+@media (min-width: 610px) and (max-width: 1000px){
+  .road-map-bg {
+    background-image: none;
+  }
+
+  .roadmap-res{
+    display: block;
+  }
+}
