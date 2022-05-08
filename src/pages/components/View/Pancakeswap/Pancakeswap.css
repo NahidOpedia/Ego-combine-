@@ -80,6 +80,11 @@
     }
     .swap{
         margin-bottom: 25px;
+        padding: 10px;
+    }
+
+    .swap-img img{
+        margin-left: 0;
     }
 }
 
@@ -113,8 +118,13 @@
 
     .swap {
         margin-bottom: 25px;
+        padding: 10px;
     }
     .swap-display{
         display: block;
     }
+
+        .swap-img img {
+            margin-left: 0;
+        }
 }

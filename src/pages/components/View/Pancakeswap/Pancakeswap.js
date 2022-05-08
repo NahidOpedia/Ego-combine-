@@ -15,7 +15,7 @@ const Pancakeswap = () => {
   return (
     <div className="pancakeswap-bg">
       <div className="row swap-display" data-aos="fade-up">
-        <div className="swap col-md-6 col-sm-12 mt-3 mx-auto ">
+        <div className="swap col-md-6 col-sm-12 mt-3 mx-auto p-3">
           <h3 className="swap-subtitle">Buy EGO on</h3>
           <h1 className="swap-title">Pancakeswap</h1>
           <div className="swap-text d-flex align-items-center">

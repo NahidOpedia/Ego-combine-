@@ -19,7 +19,7 @@ const Roadmap = () => {
       <div className="road-map">
         <h2>Road map</h2>
         <h1>Our Strategy & Project Plan</h1>
-        <div className="d-flex justify-contain-md-between roadmap-res">
+        <div className="d-block-flex d-lg-flex justify-contain-md-between d-sm-block roadmap-res">
           {/* card start here  */}
           <div className="card-1">
             <div className="road-card-1">
