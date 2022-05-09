@@ -90,7 +90,6 @@
 }
 
 .icon-box:hover {
-  margin: 0px 0;
   border: 0px solid rgba(78, 78, 78, 0.5);
   box-shadow: 0px 0px 20px #9d9def52;
   border-radius: 15px;
@@ -123,11 +122,10 @@
   font-style: bold;
   font-weight: 800;
   font-size: 40px;
-  line-height: 30px;
   text-align: center;
   border-radius: 12px;
-  padding: 40px;
-  max-width: 260px;
+  padding: 30px;
+  max-width: 245px;
   height: 110px;
 }
 
@@ -223,21 +221,18 @@
 /* time container section  */
 
 .time-container-2 {
-  margin: auto;
   margin-top: 250px;
 }
 
 .time-container {
-  margin: auto;
+  margin: 0 auto;
   margin-top: 100px;
 }
 
 .time-box-container {
-  margin: auto;
-  margin-top: 50px;
-  width: 80%;
+  width: 42%;
+  margin: 0 auto;
   border-radius: 8px;
-  padding: 5px 20px;
   height: 110px;
 }
 
@@ -246,7 +241,7 @@
 }
 
 .time-box-size {
-  width: 181px;
+  width: 245px;
 }
 
 .time-container h4 {
@@ -295,9 +290,9 @@
 
   border: 10px solid;
   border-image-slice: 1;
-  border-width: 5px;
+  border-width: 2px;
   border-radius: 8px;
-  border-image-source: linear-gradient(to left, #00d7f3, #730077);
+  border-image-source: linear-gradient(to left, #00d7f3, #6200ff);
 
 }
 
@@ -448,7 +443,12 @@
     color: #F2F2F2;
     margin-top: 170px;
   }
-
+    .time-box-container {
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 8px;
+      height: 110px;
+    }
   .treding-hour-container h1 {
     margin-top: 8px;
     font-family: 'Poppins';
@@ -615,6 +615,17 @@
     margin: 60px 0;
   }
 
+    .time-box-container {
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 8px;
+      height: 110px;
+    }
+
+        .time-container-2 {
+          margin-top: 80px;
+        }
+
   .treding-text h3 {
     font-family: 'Poppins';
     font-style: normal;
@@ -679,12 +690,6 @@
     text-align: center;
     color: #F2F2F2;
     margin-top: 18px;
-  }
-
-  .time-container {
-    margin: auto;
-    margin-top: 66px;
-    width: 300px;
   }
 
   .time-container h4 {
