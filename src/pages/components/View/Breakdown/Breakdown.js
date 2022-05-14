@@ -90,13 +90,14 @@ const Breakdown = () => {
               <Chartgraph />
             </div>
 
-            <div className="row  time-container-2">
+            <div className=" time-container-2">
               <h6 className="let-text">Let your Ego rest with you</h6>
-              <div className="row time-container">
-                <div className="text-white text-center d-flex justify-content-between time-box-container d-flex justify-content-center">
-                  <div className="d-flex justify-content-between">
-                    <div className="time-box-all time-box-size">
-                      <h5 style={{ textAlign: 'left' }}>EST TIME</h5>
+              <div className="time-container">
+
+                <div className="text-white text-center d-flex justify-content-center time-box-container ">
+                  <div className="row">
+                    <div className="col-12 col-lg-6 col-md-6 col-sm-12 time-box-all time-box-size">
+                      <h5 className="local-text-time-2">EST TIME</h5>
                       <div
                         className={`time-box ${trading ? "green-text" : "red-text"}`}
                       >
@@ -104,8 +105,8 @@ const Breakdown = () => {
                       </div>
                     </div>
 
-                    <div className="mr-5 time-box-size">
-                      <h5 style={{ textAlign: 'right' }}>LOCAL TIME</h5>
+                    <div className="col-12 col-lg-6 col-md-6 col-sm-12 mr-5 time-box-size">
+                      <h5 className="local-text-time">LOCAL TIME</h5>
                       <div
                         className={` time-box ${trading ? "green-text" : "red-text"} `}
                       >

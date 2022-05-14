@@ -52,3 +52,18 @@ img.risk-img {
   background-position: center left;
   width: 100%;
 }
+
+
+@media (min-width: 250px) and (max-width: 600px){
+    .ac-title {
+      font-size: 20px;
+    }
+    img.risk-img {
+    height: 40px;
+    width: 50px;
+    object-fit: contain;
+  }
+  .risk-btn{
+    padding: 0;
+  }
+}

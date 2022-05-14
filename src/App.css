@@ -7,9 +7,6 @@ body {
   background: linear-gradient(180deg, #0b0745 10%, #050524 100%);
   margin: 0;
   padding: 0;
-  -webkit-overflow-scrolling: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
   /* scrollbar-color: linear-gradient(106.22deg, #C15CFF -41.18%, #0085FF 81.41%); */
 }
 /* #0085FF  #C15CFF */
@@ -52,7 +49,6 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    overflow: hidden;
   }
   .graph-heading {
     font-size: 22px;

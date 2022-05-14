@@ -121,7 +121,7 @@
   background: #263560;
   font-style: bold;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
   border-radius: 12px;
   padding: 30px;
@@ -154,6 +154,14 @@
   text-align: center;
   color: #f2f2f2;
   margin-top: 190px;
+}
+
+.local-text-time{
+  text-align: right;
+}
+
+.local-text-time-2{
+  text-align: left
 }
 
 .treding-hour-container h1 {
@@ -191,11 +199,6 @@
   }
 }
 
-/* treading-img:hover{
-    border: 1px solid rgba(78, 78, 78, 0.5);
-    box-shadow: 10px 9px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 64px;
-} */
 
 .treding-hour-container-text {
   font-family: "Poppins";
@@ -229,12 +232,7 @@
   margin-top: 100px;
 }
 
-.time-box-container {
-  width: 42%;
-  margin: 0 auto;
-  border-radius: 8px;
-  height: 110px;
-}
+
 
 .time-box-all {
   margin-right: 35px;
@@ -377,7 +375,8 @@
   }
 
   .token-btn button {
-    font-size: 28px;
+    padding: 5px 25px;
+    font-size: 22px;
   }
 
   .treding-bg {
@@ -497,26 +496,59 @@
     padding-bottom: 20px;
   }
 
-  .time-shedule-container {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 30px;
+  .let-text{
+    text-align: center;
+    font-size: 22px;
   }
+    .time-box {
+      font-family: digital;
+      background: #263560;
+      font-style: bold;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      border-radius: 12px;
+      padding: 30px;
+      width: 245px;
+      height: 110px;
+    }
+    .time-box-size h5{
+      text-align:center;
+    }
 
-  .time-1 {
-    font-size: 30px;
-    padding: 32px 0;
-  }
 
-  .time-2 {
-    font-size: 30px;
-    padding: 32px 0;
-  }
+    .time-box-size{
+      width:100%
+    }
+    .time-shedule-container{
+      width:100%
+    }
 
-  .time-3 {
-    font-size: 30px;
-    padding: 32px 0;
-  }
+    .time-1 {
+    font-size: 16px;
+    line-height: 7px;
+    padding: 28px 0;
+}
+    .time-2 {
+    font-size: 16px;
+    line-height: 7px;
+    padding: 28px 0;
+}
+    .time-3 {
+    font-size: 16px;
+    line-height: 7px;
+    padding: 28px 0;
+}
+
+.local-text-time{
+  text-align: center;
+  margin-top:40px;
+}
+
+.local-text-time-2{
+  text-align: center;
+}
+
 }
 
 
@@ -622,9 +654,12 @@
       height: 110px;
     }
 
-        .time-container-2 {
-          margin-top: 80px;
-        }
+
+
+
+    .time-container-2 {
+      margin-top: 50px;
+    }
 
   .treding-text h3 {
     font-family: 'Poppins';
