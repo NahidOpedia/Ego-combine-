@@ -63,10 +63,12 @@
     .swap-subtitle {
         font-size: 30px;
         text-align: center;
+        line-height: 0px;
     }
     .swap-title{
         font-size: 34px;
         text-align: center;
+        line-height: 60px;
     }
 
 
@@ -78,6 +80,7 @@
     }
     .swap-text {
         font-size: 10px;
+        line-height: 0px;
     }
     .swap{
         margin-bottom: 25px;
@@ -89,6 +92,9 @@
         height: 210px;
         border-radius: 24px;
         margin-left: 0px;
+    }
+    .copyright{
+        font-size: 12px;
     }
 }
 

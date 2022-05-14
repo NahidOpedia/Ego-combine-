@@ -287,13 +287,30 @@
     margin-top: 25px;
 }
 
-.road-2-card {
-    margin-top: 150px;
-    margin-left: 0;
-}
+  .road-2-card {
+      margin-top: 150px;
+      margin-left: 0;
+  }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 250px) and (max-width: 600px) {
+
+
 
   .road-card-options-2>ul{
     padding: 0 15px;
@@ -322,21 +339,30 @@
     color: #ffffff;
   }
 
-  .road-map h1 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
+
+  .road-card-1 > h1{
+    padding: 0px 20px;
     font-size: 40px;
-    line-height: 72px;
-    text-align: center;
-    background: linear-gradient(106.22deg, #0085ff -41.18%, #c15cff 81.41%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  }
+  .road-card-1 > h1 > span{
+    font-size: 25px;
   }
 
-  .road-map-view {
-    background-image: none;
+
+  .road-card-2 > h1{
+    padding: 0px 20px;
+    font-size: 40px;
+  }
+  .road-card-2 > h1 > span{
+    font-size: 25px;
+  }
+
+  .road-card-3 > h1{
+    padding: 0px 20px;
+    font-size: 40px;
+  }
+  .road-card-3 > h1 > span{
+    font-size: 25px;
   }
 }
 

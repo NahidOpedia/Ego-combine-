@@ -23,7 +23,7 @@ const Roadmap = () => {
           {/* card start here  */}
           <div className="card-1">
             <div className="road-card-1">
-              <h1>
+              <h1 className="big-q">
                 Q<span>1</span>
               </h1>
             </div>
@@ -84,7 +84,7 @@ const Roadmap = () => {
           <div className="road-2-card">
             <div>
               <div className="road-card-2">
-                <h1>
+                <h1 className="big-q">
                   Q<span>2</span>
                 </h1>
               </div>
@@ -101,7 +101,7 @@ const Roadmap = () => {
             </div>
             <div className="road-card-3-map">
               <div className="road-card-3">
-                <h1>
+                <h1 className="big-q">
                   Q<span>3</span>
                 </h1>
               </div>

@@ -12,7 +12,7 @@ const SpicalFQA = () => {
 
             <div className="accordion-item accordion-item-costom-1 col-12 col-md-12 col-sm-12 mb-4">
                 <h2 className="" id="headingOne">
-                <button className="d-flex justify-content-center align-items-center p-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button className="d-flex justify-content-center align-items-center p-0 p-md-5 p-lg-5 p-sm-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <img src={risk} alt="" className='risk-img'/> <h1 className="text-white ms-3 ac-title">Managed Risk</h1>
                 </button>
                 </h2>
@@ -36,7 +36,7 @@ const SpicalFQA = () => {
 
             <div className="accordion-item accordion-item-costom-1 col-12 col-md-12 col-sm-12 mb-4">
                 <h2 className="" id="headingTwo">
-                <button className="d-flex justify-content-center align-items-center p-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button className="d-flex justify-content-center align-items-center p-0 p-md-5 p-lg-5 p-sm-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <img src={vote} alt="" className='risk-img'/> <h1 className="text-white ms-3 ac-title">Education</h1>
                 </button>
                 </h2>
@@ -54,7 +54,7 @@ const SpicalFQA = () => {
 
             <div className="accordion-item accordion-item-costom-1 col-12 col-md-12 col-sm-12">
                 <h2 id="headingThree">
-                <button className="d-flex justify-content-center align-items-center p-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button className="d-flex justify-content-center align-items-center p-0 p-md-5 p-lg-5 p-sm-5 risk-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <img src={Group} alt="" className='risk-img'/> <h1 className="text-white ms-3 ac-title">Transparency</h1>
                 </button>
                 </h2>
