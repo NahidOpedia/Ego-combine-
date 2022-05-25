@@ -74,7 +74,7 @@ const Breakdown = () => {
 
 
               {
-                [{ id: 1, name: 'Supply', img: Treding1, ammount: '1, 000, 000, 000' }, { id: 2, name: 'Max Wallet', img: Treding2, ammount: '25,000,000,000' }, { id: 3, name: 'Max Buy', img: Treding3, ammount: '10,000,000,000' }, { id: 4, name: 'Max Sell', img: Treding4, ammount: '5,000,000,000' }, { id: 5, name: 'Cool Down', img: Treding5, ammount: '60 Seconds' }].map(i => <div className="icon-box col-xl col-lg-3 col-md-4 col-sm-6 col-12">
+                [{ id: 1, name: 'Supply', img: Treding1, ammount: '1, 000, 000, 000' }, { id: 2, name: 'Max Wallet', img: Treding2, ammount: '25,000,000' }, { id: 3, name: 'Max Buy', img: Treding3, ammount: '10,000,000' }, { id: 4, name: 'Max Sell', img: Treding4, ammount: '5,000,000' }, { id: 5, name: 'Cool Down', img: Treding5, ammount: '60 Seconds' }].map(i => <div className="icon-box col-xl col-lg-3 col-md-4 col-sm-6 col-12">
                   <div className="img text-center">
                     <img src={i.img} alt="" srcSet="" />
                   </div>
